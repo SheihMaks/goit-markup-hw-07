@@ -86,12 +86,13 @@ body {
   padding-top: 24px;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.webstudio:focus,
-.webstudio:hover {
+  &:focus,
+  &:hover {
   opacity: 0.7;
 }
+
+}
+
 
 .web-link {
   font-family: Raleway;
