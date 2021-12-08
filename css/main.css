@@ -386,7 +386,7 @@ body {
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center;
-  background-color: #f5f4fa;
+  background-color: var(--thirst-background-color);
   margin-bottom: 30px;
 }
 
