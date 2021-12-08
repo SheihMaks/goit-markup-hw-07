@@ -8,6 +8,7 @@
   --active-page-color: rgba(33, 150, 243, 1);
   --background-color: rgba(255, 255, 255, 1);
   --second-background-color: rgba(47, 48, 58, 1);
+  --thirst-background-color: rgba(245, 244, 250, 1);
   --main-border-color: rgba(0, 0, 0, 1);
   --second-border-color: rgba(117, 117, 117, 1);
   --modal-backdrop-color: rgba(0, 0, 0, 0.2);
@@ -461,7 +462,7 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--thirst-background-color);
 }
 
 .team-list {
@@ -575,5 +576,104 @@ body {
   width: 106px;
   height: 60px;
   fill: currentColor;
+}
+
+.ft-link {
+  display: inline-flex;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ft-link span {
+  display: inline-flex;
+  line-height: 0.8;
+}
+
+.ft-link:hover,
+.ft-link:focus {
+  border-color: #ffffff;
+}
+
+.studio-ft {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.location {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.mail-ft {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  color: var(--second-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-ft:hover, .mail-ft:focus {
+  color: var(--accent-color);
+}
+
+.mail-ft::after {
+  content: "";
+  left: 0;
+  bottom: 5px;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent-color);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 1, 0.2, 1);
+}
+
+.mail-ft::after:hover::after {
+  opacity: 1;
+}
+
+.telephone-ft {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  border-bottom: solid 1px transparent;
+  color: var(--second-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.telephone-ft:hover, .telephone-ft:focus {
+  color: var(--accent-color);
+}
+
+.telephone-ft::after {
+  content: "";
+  left: 0;
+  bottom: 5px;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent-color);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 1, 0.2, 1);
+}
+
+.telephone-ft::after:hover::after {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
