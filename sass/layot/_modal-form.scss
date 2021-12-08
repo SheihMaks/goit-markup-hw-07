@@ -38,11 +38,12 @@
   cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus {
+    &:focus {
   border-color: var(--accent-color);
 }
+}
+
+
 
 .modal-form-input:focus + svg {
   color: var(--accent-color);
