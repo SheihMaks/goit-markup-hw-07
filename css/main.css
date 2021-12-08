@@ -578,6 +578,31 @@ body {
   fill: currentColor;
 }
 
+.footer {
+  background-color: var(--second-background-color);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.flex-ft {
+  display: flex;
+  justify-content: left;
+}
+
+.our-contacts {
+  margin-right: 70px;
+}
+
+.social-block {
+  padding-bottom: 97px;
+  padding-top: 72px;
+}
+
+.subscription {
+  padding-top: 72px;
+  margin-left: 93px;
+}
+
 .ft-link {
   display: inline-flex;
   padding-top: 60px;
@@ -771,5 +796,181 @@ body {
 .icon-subscription {
   margin-left: 10px;
   fill: currentColor;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--second-title-color);
+}
+
+.filter-btn {
+  font-family: var(--main-font);
+  padding: 0 22px;
+  height: 38px;
+  background: var(--thirst-background-color);
+  border-radius: 4px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btn:focus, .filter-btn:hover {
+  color: var(--main-title-color);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(143, 140, 140, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(58, 51, 51, 0.12);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-right: -30px;
+}
+
+.content-list {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.img-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.definition {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(101%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content-link:hover .definition {
+  transform: translateY(0);
+}
+
+.card-txt {
+  width: 322px;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.content-link {
+  display: block;
+  border: 1px solid transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content-link:focus, .content-link:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.about-card {
+  padding: 20px 24px;
+}
+
+.name-project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  align-items: center;
+  color: var(--main-border-color);
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover {
+  color: var(--accent-color);
+}
+
+.modal-close-btn {
+  fill: currentColor;
+}
+
+.modal-textarea-input {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  resize: none;
+  padding: 12px 16px;
+  border: 1px solid var(--modal-input-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-textarea-input:focus {
+  border-color: var(--accent-color);
+}
+
+.modal-textarea-input::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-submit-btn {
+  display: block;
+  padding: 10px 55px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+  background-color: var(--btn-background-color);
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-submit-btn:hover, .form-submit-btn:focus {
+  background-color: var(--btn-hover-color);
 }
 /*# sourceMappingURL=main.css.map */
