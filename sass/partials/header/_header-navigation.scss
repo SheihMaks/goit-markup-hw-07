@@ -1,0 +1,85 @@
+.navigation-container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  flex-grow: 1;
+  padding-left: 90px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation .active .link::after {
+  opacity: 1;
+}
+
+.navigation .active .link:hover::before {
+  opacity: 0;
+}
+
+.navigation .active .link {
+  color: var(--accent-color);
+}
+
+.studio,
+.portfolio,
+.contacts {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+  padding: 32px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.studio::after,
+.portfolio::after,
+.contacts::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -2px;
+  display: inline-block;
+  background-color: var(--active-page-color);
+  border-radius: 2px;
+  opacity: 0;
+}
+
+.studio::before,
+.portfolio::before,
+.contacts::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 33px;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent-color);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.studio:hover::before,
+.portfolio:hover::before,
+.contacts:hover::before {
+  opacity: 1;
+}

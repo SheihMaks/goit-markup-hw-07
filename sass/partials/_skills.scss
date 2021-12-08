@@ -1,0 +1,54 @@
+.section {
+  padding: 94px 0;
+}
+.skills {
+  display: flex;
+  margin-right: -30px;
+}
+
+.skills-list {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-right: 30px;
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+  }
+}
+
+.attention::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.punctuality::before {
+  background-image: url(../images/clock.svg);
+}
+
+.planning::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.hitech::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.skills-main {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+  padding-bottom: 10px;
+}
+
+.skills-about {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
