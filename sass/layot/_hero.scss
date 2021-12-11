@@ -1,15 +1,12 @@
-.solutions {
-  background-color: var(--second-background-color);
-  text-align: center;
-  padding-bottom: 280px;
-}
-
-.overlay {
+.hero {
   max-width: 1600px;
   height: 600px;
+  text-align: center;
   outline: solid 1px var(--main-border-color);
   margin-left: auto;
   margin-right: auto;
+  padding: 200px 0;
+  background-color: var(--second-background-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -20,7 +17,7 @@
   background-size: 1600px;
 }
 
-.core {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -29,7 +26,6 @@
   text-transform: uppercase;
   max-width: 696px;
   margin: auto;
-  padding-top: 200px;
   margin-bottom: 30px;
   color: var(--main-title-color);
 }

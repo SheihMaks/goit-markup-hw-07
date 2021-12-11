@@ -89,13 +89,13 @@ body {
   pointer-events: none;
 }
 
-.container {
+.section__container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.heading-section {
+.section__heading {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -299,25 +299,22 @@ body {
   opacity: 1;
 }
 
-.solutions {
-  background-color: var(--second-background-color);
-  text-align: center;
-  padding-bottom: 280px;
-}
-
-.overlay {
+.hero {
   max-width: 1600px;
   height: 600px;
+  text-align: center;
   outline: solid 1px var(--main-border-color);
   margin-left: auto;
   margin-right: auto;
+  padding: 200px 0;
+  background-color: var(--second-background-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-solutions.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1600px;
 }
 
-.core {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -326,12 +323,11 @@ body {
   text-transform: uppercase;
   max-width: 696px;
   margin: auto;
-  padding-top: 200px;
   margin-bottom: 30px;
   color: var(--main-title-color);
 }
 
-.order {
+.hero__btn {
   display: inline-flex;
   font-family: var(--main-font);
   font-weight: 700;
@@ -349,7 +345,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order:hover, .order:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--btn-hover-color);
 }
 
@@ -357,17 +353,17 @@ body {
   padding: 94px 0;
 }
 
-.skills {
+.skills__list {
   display: flex;
   margin-right: -30px;
 }
 
-.skills-list {
+.skills__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 }
 
-.skills-list::before {
+.skills__item::before {
   content: "";
   display: block;
   height: 120px;
@@ -378,23 +374,23 @@ body {
   margin-bottom: 30px;
 }
 
-.attention::before {
+.skills__item--attention::before {
   background-image: url(../images/antenna.svg);
 }
 
-.punctuality::before {
+.skills__item--punctuality::before {
   background-image: url(../images/clock.svg);
 }
 
-.planning::before {
+.skills__item--planning::before {
   background-image: url(../images/diagram.svg);
 }
 
-.hitech::before {
+.skills__item--hitech::before {
   background-image: url(../images/astronaut.svg);
 }
 
-.skills-main {
+.skills__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -403,7 +399,7 @@ body {
   padding-bottom: 10px;
 }
 
-.skills-about {
+.skills__about {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -414,7 +410,7 @@ body {
   padding-bottom: 94px;
 }
 
-.our-work-list {
+.our-work__list {
   display: flex;
   margin-right: -30px;
 }
@@ -444,7 +440,7 @@ body {
   color: var(--main-title-color);
 }
 
-.image-list {
+.our-work__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
