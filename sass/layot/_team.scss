@@ -1,13 +1,13 @@
-.team {
+.section--team {
   background-color: var(--thirst-background-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   margin-right: -30px;
 }
 
-.photo-list {
+.team__card {
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
   background-color: var(--background-color);
@@ -17,11 +17,11 @@
   text-align: center;
 }
 
-.about-team {
+.team__about {
   padding-bottom: 30px;
   margin-top: 30px;
 }
-.name {
+.team__name {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -30,7 +30,7 @@
   color: var(--second-title-color);
 }
 
-.job {
+.team__job {
   margin-top: 10px;
   margin-bottom: 16px;
   font-size: 16px;
