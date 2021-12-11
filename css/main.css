@@ -182,16 +182,10 @@ body {
 }
 
 .navigation__link:hover,
-.navigation__link:focus,
-.navigation__link:hover,
-.navigation__link:focus,
-.navigation__link:hover,
 .navigation__link:focus {
   color: var(--accent-color);
 }
 
-.navigation__link::after,
-.navigation__link::after,
 .navigation__link::after {
   content: "";
   position: absolute;
@@ -205,8 +199,6 @@ body {
   opacity: 0;
 }
 
-.navigation__link::before,
-.navigation__link::before,
 .navigation__link::before {
   content: "";
   position: absolute;
@@ -219,8 +211,6 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__link:hover::before,
-.navigation__link:hover::before,
 .navigation__link:hover::before {
   opacity: 1;
 }
