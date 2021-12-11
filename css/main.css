@@ -123,7 +123,7 @@ body {
   opacity: 0.7;
 }
 
-.web-link {
+.logo__web {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
@@ -132,7 +132,7 @@ body {
   color: #2196f3;
 }
 
-.studio-link {
+.logo__studio {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
