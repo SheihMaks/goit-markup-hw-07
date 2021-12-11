@@ -1,8 +1,8 @@
-.navigation-container {
+.navigation__container {
   display: flex;
 }
 
-.navigation {
+.navigation__list {
   display: flex;
   list-style: none;
   flex-grow: 1;
@@ -11,19 +11,19 @@
   padding-bottom: 32px;
 }
 
-.header-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.navigation .active .link::after {
+.navigation__list .active .link::after {
   opacity: 1;
 }
 
-.navigation .active .link:hover::before {
+.navigation__list .active .link:hover::before {
   opacity: 0;
 }
 
-.navigation .active .link {
+.navigation__list .active .link {
   color: var(--accent-color);
 }
 
