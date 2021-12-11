@@ -17,7 +17,7 @@
         "../sass/layot/_skills.scss",
         "../sass/layot/_our-work.scss",
         "../sass/layot/_team.scss",
-        "../sass/components/_team-social-block.scss",
+        "../sass/components/_social-container.scss",
         "../sass/layot/_partners.scss",
         "../sass/layot/_footer.scss",
         "../sass/components/_footer-logo.scss",

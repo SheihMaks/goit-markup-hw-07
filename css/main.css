@@ -486,7 +486,7 @@ body {
   color: var(--main-text-color);
 }
 
-.social__conteiner {
+.social__container {
   display: flex;
   justify-content: center;
 }
