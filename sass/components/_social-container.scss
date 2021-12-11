@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.icon__social {
+.social__item {
   width: 44px;
   height: 44px;
   &:not(:last-child) {
@@ -10,7 +10,7 @@
   }
 }
 
-.icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: currentcolor;

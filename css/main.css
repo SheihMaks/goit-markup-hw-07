@@ -491,12 +491,12 @@ body {
   justify-content: center;
 }
 
-.icon__social {
+.social__item {
   width: 44px;
   height: 44px;
 }
 
-.icon__social:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
 
