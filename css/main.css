@@ -486,7 +486,7 @@ body {
   color: var(--main-text-color);
 }
 
-.links__team {
+.social__conteiner {
   display: flex;
   justify-content: center;
 }
