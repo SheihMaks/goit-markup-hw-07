@@ -95,6 +95,10 @@ body {
   padding: 0 15px;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 .section__heading {
   font-size: 36px;
   line-height: 1.17;
@@ -347,10 +351,6 @@ body {
 
 .hero__btn:hover, .hero__btn:focus {
   background-color: var(--btn-hover-color);
-}
-
-.section {
-  padding: 94px 0;
 }
 
 .skills__list {
