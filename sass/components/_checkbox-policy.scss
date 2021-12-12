@@ -1,4 +1,4 @@
-.title-policy {
+.modal__title-policy {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -8,7 +8,7 @@
   color: var(--main-text-color);
 }
 
-.custom-check {
+.modal__custom-check {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,13 +35,13 @@
   cursor: pointer;
 }
 
-.link-policy {
+.modal__link-policy {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
-.policy-span {
+.checkbox-policy__span {
   margin-left: 4px;
 }
