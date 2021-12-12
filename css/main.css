@@ -120,20 +120,14 @@ body {
 
 .logo__page {
   line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 
 .logo__page .logo__web {
   font-family: var(--second-font);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
   color: #2196f3;
-}
-
-.logo__page .logo__studio {
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
 }
 
 .logo__page--white {
