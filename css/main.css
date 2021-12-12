@@ -593,9 +593,8 @@ body {
   margin: 0 auto;
 }
 
-.flex-ft {
+.flex-container {
   display: flex;
-  justify-content: left;
 }
 
 .footer__contacts {
