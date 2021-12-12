@@ -537,12 +537,12 @@ body {
   background-color: var(--accent-color);
 }
 
-.partners-list {
+.partners__list {
   display: flex;
   margin-left: -30px;
 }
 
-.partner-icon {
+.partners_items {
   width: 170px;
   height: 92px;
   flex-basis: calc(100% / 6 - 30px);
