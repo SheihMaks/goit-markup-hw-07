@@ -1,0 +1,44 @@
+.logo__page {
+  line-height: 1.19;
+  .logo__web {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+  .logo__studio {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+  }
+}
+
+.logo__page--white {
+  display: inline-flex;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid transparent;
+  line-height: 0.8;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: #ffffff;
+  }
+  .logo__studio--white {
+    color: var(--main-title-color);
+  }
+}
+
+.logo__page--dark {
+  padding-top: 24px;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    opacity: 0.7;
+  }
+  .logo__studio--dark {
+    color: var(--default-color);
+  }
+}
