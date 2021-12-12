@@ -123,10 +123,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
+  font-family: var(--second-font);
 }
 
 .logo__page .logo__web {
-  font-family: var(--second-font);
   color: #2196f3;
 }
 
