@@ -21,21 +21,21 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-width 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .checkbox-input:checked + & {
+  .checkbox-policy__input:checked + & {
     background-color: var(--accent-color);
     border-color: transparent;
     background-origin: border-box;
   }
-  .checkbox-input:focus + & {
+  .checkbox-policy__input:focus + & {
     border-width: 3px;
   }
 }
 
-.checkbox-input {
+.checkbox-policy__input {
   cursor: pointer;
 }
 
-.modal__link-policy {
+.checkbox-policy__link-policy {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
