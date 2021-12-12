@@ -1,9 +1,9 @@
-.subscription-container {
+.subscription__container {
   display: flex;
   align-items: center;
 }
 
-.mail-subscription {
+.subscription__mail {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -23,14 +23,14 @@
   }
 }
 
-.mail-subscription::placeholder {
+.subscription__mail::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-.subscription-btn {
+.subscription__btn {
   display: inline-flex;
   align-items: center;
   font-family: var(--main-font);
@@ -52,7 +52,7 @@
   }
 }
 
-.icon-subscription {
+.subscription__icon {
   margin-left: 10px;
   fill: currentColor;
 }
