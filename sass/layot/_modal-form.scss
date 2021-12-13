@@ -27,6 +27,9 @@
   transform: translateY(-50%);
   left: 12px;
   fill: currentColor;
+  .modal__form-input:focus + & {
+    color: var(--accent-color);
+  }
 }
 
 .modal__form-input {
@@ -41,10 +44,6 @@
   &:focus {
     border-color: var(--accent-color);
   }
-}
-
-.modal__form-input:focus + .modal__input-icon {
-  color: var(--accent-color);
 }
 
 .modal__textarea {
