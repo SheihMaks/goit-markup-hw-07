@@ -1,5 +1,5 @@
-.hero__btn {
-  display: inline-flex;
+.button-submit {
+  display: block;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -10,7 +10,7 @@
   background: var(--btn-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 10px 32px;
+  margin: 0 auto;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -18,4 +18,12 @@
   &:focus {
     background-color: var(--btn-hover-color);
   }
+}
+
+.button-submit--hero {
+  padding: 10px 32px;
+}
+
+.button-submit--modal {
+  padding: 10px 55px;
 }
