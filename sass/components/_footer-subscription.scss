@@ -21,13 +21,12 @@
   &:hover {
     border-color: rgba(255, 255, 255, 1);
   }
-}
-
-.subscription__mail::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+  }
 }
 
 .subscription__btn {

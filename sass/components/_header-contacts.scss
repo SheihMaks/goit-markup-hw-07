@@ -19,28 +19,26 @@
   &:focus {
     color: var(--accent-color);
   }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 33px;
+    width: 85%;
+    height: 1px;
+    background-color: var(--accent-color);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover::after {
+    opacity: 1;
+  }
 }
 
 .mail__icon {
   display: inline-block;
   margin-right: 10px;
   fill: currentcolor;
-}
-
-.header__mail::after {
-  content: "";
-  position: absolute;
-  left: 25px;
-  bottom: 33px;
-  width: 85%;
-  height: 1px;
-  background-color: var(--accent-color);
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__mail:hover::after {
-  opacity: 1;
 }
 
 .header__telephone {
@@ -58,26 +56,24 @@
   &:focus {
     color: var(--accent-color);
   }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 19px;
+    bottom: 35px;
+    width: 87%;
+    height: 1px;
+    background-color: var(--accent-color);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover::after {
+    opacity: 1;
+  }
 }
 
 .telephone__icon {
   display: inline-block;
   margin-right: 10px;
   fill: currentcolor;
-}
-
-.header__telephone::after {
-  content: "";
-  position: absolute;
-  left: 19px;
-  bottom: 35px;
-  width: 87%;
-  height: 1px;
-  background-color: var(--accent-color);
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__telephone:hover::after {
-  opacity: 1;
 }
