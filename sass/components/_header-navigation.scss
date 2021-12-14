@@ -9,15 +9,6 @@
   padding-left: 90px;
   padding-top: 32px;
   padding-bottom: 32px;
-  & .active .link {
-    color: var(--accent-color);
-  }
-  & .active .link::after {
-    opacity: 1;
-  }
-  & .active .link:hover::before {
-    opacity: 0;
-  }
 }
 
 .navigation__item:not(:last-child) {
@@ -62,5 +53,15 @@
   }
   &:hover::before {
     opacity: 1;
+  }
+}
+
+.curent--link .navigation__link {
+  color: var(--accent-color);
+  &::after {
+    opacity: 1;
+  }
+  &::before {
+    opacity: 0;
   }
 }
