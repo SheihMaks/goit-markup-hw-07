@@ -147,6 +147,10 @@ body {
   color: var(--main-title-color);
 }
 
+.logo__studio--white {
+  color: var(--main-title-color);
+}
+
 .logo__page--dark {
   padding-top: 24px;
   opacity: 1;
@@ -157,7 +161,7 @@ body {
   opacity: 0.7;
 }
 
-.logo__studio--dark {
+.logo__page--dark .logo__studio--dark {
   color: var(--default-color);
 }
 
@@ -897,7 +901,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   background-color: transparent;
