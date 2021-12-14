@@ -29,7 +29,7 @@
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .card-list__link:hover & {
+  .card__link:hover & {
     transform: translateY(0);
   }
 }
@@ -41,7 +41,7 @@
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
-.card-list__link {
+.card__link {
   display: block;
   border: 1px solid transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -54,18 +54,18 @@
   }
 }
 
-.about-card {
+.card__about {
   padding: 20px 24px;
 }
 
-.name-project {
+.card__name-project {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
 
-.project-description {
+.card__project-description {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
