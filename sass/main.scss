@@ -1,32 +1,5 @@
-@import "./utils/var";
-@import "./base/reset";
-@import "./utils/class-hidden";
-@import "./components/container-section";
-@import "./components/heading-section";
-
-@import "./layot/header";
-@import "./components/logo-page";
-@import "./components/header-navigation";
-@import "./components/header-contacts";
-
-@import "./layot/hero";
-@import "./components/button-submit";
-@import "./layot/skills";
-
-@import "./layot/our-work";
-@import "./layot/team";
-@import "./components/social-container";
-@import "./layot/partners";
-//Footer
-@import "./layot/footer";
-@import "./components/footer-contacts";
-@import "./components/footer-heading";
-@import "./components/footer-subscription";
-//portfolio
-@import "./components-portfolio/filter-buttons";
-@import "./components-portfolio/product-card";
-//Modal
-@import "./components/modal";
-@import "./layot/modal-form";
-@import "./components/modal-textarea";
-@import "./components/checkbox-policy";
+@import "./utils/utils";
+@import "./base/base";
+@import "./components/main";
+@import "./components-portfolio/main.scss";
+@import "./layot/main.scss";
