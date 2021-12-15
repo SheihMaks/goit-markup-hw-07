@@ -50,10 +50,6 @@ img {
   height: auto;
 }
 
-footer {
-  background-color: var(--second-background-color);
-}
-
 *:focus {
   outline: none;
 }
@@ -143,11 +139,7 @@ body {
   border-color: #ffffff;
 }
 
-.logo__page--white .logo__studio--white {
-  color: var(--main-title-color);
-}
-
-.logo__studio--white {
+.logo__page--white .logo__studio {
   color: var(--main-title-color);
 }
 
@@ -161,7 +153,7 @@ body {
   opacity: 0.7;
 }
 
-.logo__page--dark .logo__studio--dark {
+.logo__page--dark .logo__studio {
   color: var(--default-color);
 }
 

@@ -20,14 +20,11 @@
   &:focus {
     border-color: #ffffff;
   }
-  .logo__studio--white {
+  & .logo__studio {
     color: var(--main-title-color);
   }
 }
 
-.logo__studio--white {
-  color: var(--main-title-color);
-}
 .logo__page--dark {
   padding-top: 24px;
   opacity: 1;
@@ -36,7 +33,7 @@
   &:hover {
     opacity: 0.7;
   }
-  .logo__studio--dark {
+  & .logo__studio {
     color: var(--default-color);
   }
 }
